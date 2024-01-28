@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.print("It's blue side");
+        String str = "See you next time";
+        System.out.printf("%s", str);
     }
 }
