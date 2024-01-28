@@ -1,24 +1,16 @@
 package skritayaUgrozaPartTwo;
 
 public class Solution {
-    public static class Zam {
-        public int age;
-        public int height;
-        public Dron spy;
-    }
-
-    public static class Dron {
-        public int version;
-        public int weight;
-        public Zam hunter;
-
+    public static class Jedi {
+        public String name;
     }
 
     public static void main(String[] args) {
-        Zam zam = new Zam();
-        Dron dron = new Dron();
-
-        dron.hunter = zam;
-        zam.spy = dron;
+        Jedi jedi1 = new Jedi();
+        Jedi jedi2 = new Jedi();
+        Jedi jedi3 = new Jedi();
+        jedi1.name = "Obi-Wan";
+        jedi2.name = "Anakin";
+        jedi3.name = "Joda";
     }
 }
