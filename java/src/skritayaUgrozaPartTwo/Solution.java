@@ -2,7 +2,15 @@ package skritayaUgrozaPartTwo;
 
 public class Solution {
     public static void main(String[] args) {
-        int number = 25;
-        System.out.println((int)Math.pow(number, 2));
+        System.out.println("May the Force be with you.");
+        System.out.println("May the Force be with you.");
+        System.out.println("May the Force be with you.");
+        System.out.println("May the Force be with you.");
+        System.out.println("May the Force be with you.");
+        System.out.println("May the Force be with you.");
+        System.out.println("May the Force be with you.");
+        System.out.println("May the Force be with you.");
+        System.out.println("May the Force be with you.");
+        System.out.println("May the Force be with you.");
     }
 }
