@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Integer.toString(4-3));
+        String name = "Anakin";
+        int height = 188;
+        String planet = "Tatooine";
     }
 }
