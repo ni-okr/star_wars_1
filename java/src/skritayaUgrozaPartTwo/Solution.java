@@ -1,11 +1,12 @@
 package skritayaUgrozaPartTwo;
 
 public class Solution {
-    public static double getWeight(int weight) {
-        return (weight * 0.17);
+    public static void print3(String s) {
+        System.out.print(s + " " + s +  " " + s +  " ");
     }
 
     public static void main(String[] args) {
-        System.out.println(getWeight(800));
+        print3("dump");
+        print3("cargo");
     }
 }
