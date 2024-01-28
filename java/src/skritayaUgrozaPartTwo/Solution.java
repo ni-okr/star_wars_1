@@ -1,19 +1,29 @@
 package skritayaUgrozaPartTwo;
 
 public class Solution {
-    public static class Clone {
+    public static class Dias {
+    }
+
+    public static class Clone1 {
+        public Dias owner;
+    }
+
+    public static class Clone2 {
+        public Dias owner;
+    }
+
+    public static class Clone3 {
+        public Dias owner;
     }
 
     public static void main(String[] args) {
-        Clone clone1 = new Clone();
-        Clone clone2 = new Clone();
-        Clone clone3 = new Clone();
-        Clone clone4 = new Clone();
-        Clone clone5 = new Clone();
-        Clone clone6 = new Clone();
-        Clone clone7 = new Clone();
-        Clone clone8 = new Clone();
-        Clone clone9;
-        Clone clone10;
+        Clone1 clone1 = new Clone1();
+        Clone2 clone2 = new Clone2();
+        Clone3 clone3 = new Clone3();
+        Dias dias = new Dias();
+
+        clone1.owner = dias;
+        clone2.owner = dias;
+        clone3.owner = dias;
     }
 }
