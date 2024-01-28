@@ -1,12 +1,17 @@
 package skritayaUgrozaPartTwo;
 
 public class Solution {
-    public static void print3(String s) {
-        System.out.print(s + " " + s +  " " + s +  " ");
+    public static int min(int a, int b) {
+        if (a < b){
+            return b;
+        } else {
+            return a;
+        }
     }
 
     public static void main(String[] args) {
-        print3("dump");
-        print3("cargo");
+        System.out.println(min(12, 33));
+        System.out.println(min(-20, 0));
+        System.out.println(min(-10, -20));
     }
 }
