@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 2;
-        int y = 12;
-//        y = x * y;
-        y = x + y;
-        x = y - x;
-        y = y - x;
-        System.out.println(x);
-        System.out.println(y);
+        System.out.print("The");
+//        System.out.print("Starship");
+//        System.out.println(" car ");
+        System.out.print(" car");
+        System.out.print(" is ");
+        System.out.print("ready ");
+//        System.out.print(" ready ");
+        System.out.print("for");
+//        System.out.println(" the");
+        System.out.print(" the");
+        System.out.println(" race");
     }
 }
