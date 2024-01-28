@@ -1,9 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Destroy Droidekas");
-        System.out.println("Destroy Droidekas");
-        System.out.println("Destroy Droidekas");
-        System.out.println("Destroy Droidekas");
-        System.out.println("Destroy Droidekas");
+        System.out.println(Integer.toString(4-3));
     }
 }
