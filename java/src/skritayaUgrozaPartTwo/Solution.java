@@ -1,14 +1,13 @@
 package skritayaUgrozaPartTwo;
 
 import java.io.*;
+import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-        InputStream inputStream = System.in;
-        Reader inputStreamReader = new InputStreamReader(inputStream);
-        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-        String phrase = bufferedReader.readLine();
+        Scanner scanner = new Scanner(System.in);
+        int digit = scanner.nextInt();
 
-        System.out.println(phrase);
+        System.out.println(digit);
     }
 }
