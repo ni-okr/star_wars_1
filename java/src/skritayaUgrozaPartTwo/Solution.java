@@ -14,9 +14,9 @@ public class Solution {
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 
 //        присваиваем написанное с клавы в переменную, считывая строку методом readLine() класса bufferedReader
-        String name1 = bufferedReader.readLine();
-        String name2 = bufferedReader.readLine();
+        String name = bufferedReader.readLine();
+        String count = bufferedReader.readLine();
 
-        System.out.println(name1 + " + " + name2 + " is a header of the Senate");
+        System.out.println("Master " + name + " is here " + count + " jedis");
     }
 }
