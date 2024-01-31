@@ -1,18 +1,20 @@
 package skritayaUgrozaPartTwo;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Solution {
-    public static int sumDigitsInNumber(int number){
-        return (number / 100 + number / 10 % 10 + number % 10);
+    public static int getYear (int number){
+        return number - 35;
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
-
-        System.out.println(sumDigitsInNumber(322));
+        if (getYear(number) < 0){
+            System.out.println(Math.abs(getYear(number)) + " year before Yawin");
+        }
+        else {
+            System.out.println(getYear(number) + " year after Yawin");
+        }
     }
-
 }
