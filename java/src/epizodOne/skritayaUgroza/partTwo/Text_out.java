@@ -1,4 +1,4 @@
-package skritayaUgrozaPartTwo;
+package epizodOne.skritayaUgroza.partTwo;
 
 import java.io.IOException;
 import java.util.*;

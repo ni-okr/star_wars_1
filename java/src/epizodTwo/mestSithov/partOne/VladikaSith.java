@@ -1,4 +1,4 @@
-package epizodTwoMestSithovPartOne;
+package epizodTwo.mestSithov.partOne;
 
 import java.io.BufferedReader;
 import java.io.IOException;

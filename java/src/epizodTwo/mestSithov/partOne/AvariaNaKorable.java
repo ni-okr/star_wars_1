@@ -1,4 +1,4 @@
-package epizodTwoMestSithovPartOne;
+package epizodTwo.mestSithov.partOne;
 
 public class AvariaNaKorable {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package epizodTwoMestSithovPartOne;
+package epizodTwo.mestSithov.partOne;
 
 public class PoimkaGeneralaGriviusa {
     public static void main(String[] args) {

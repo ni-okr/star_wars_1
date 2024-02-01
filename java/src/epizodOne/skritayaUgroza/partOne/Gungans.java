@@ -1,4 +1,4 @@
-package skritayaUgrozaPartOne;
+package epizodOne.skritayaUgroza.partOne;
 
 public class Gungans {
     String name = "Jar-Jar";
