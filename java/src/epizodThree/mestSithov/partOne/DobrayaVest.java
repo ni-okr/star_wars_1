@@ -1,6 +1,6 @@
 package epizodThree.mestSithov.partOne;
 
-public class DobrayaVolya {
+public class DobrayaVest {
     public static void main(String[] args) {
         int i = 0;
         while (i <= 10) {
