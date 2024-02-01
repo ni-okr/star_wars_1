@@ -1,18 +1,16 @@
-package epizodTwo.mestSithov.partOne;
+package epizodThree.mestSithov.partOne;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class DarkSideOfPower {
+public class VPoiskahPalpatina {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int numb = Integer.parseInt(reader.readLine());
-        if (numb < 0)
-            System.out.println("it's Dark side");
-        else if (numb == 0)
-            System.out.println("it's balance");
-        else
-            System.out.println("it's Light side");
+        if (numb == 1)
+        System.out.println("Duku is here");
+        else if (numb == 2)
+            System.out.println("It's a trap");
     }
 }

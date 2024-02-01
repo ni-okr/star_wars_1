@@ -1,4 +1,4 @@
-package epizodTwo.mestSithov.partOne;
+package epizodThree.mestSithov.partOne;
 
 public class DobrayaVolya {
     public static void main(String[] args) {
