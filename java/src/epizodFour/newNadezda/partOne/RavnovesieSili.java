@@ -3,7 +3,7 @@ package epizodFour.newNadezda.partOne;
 public class RavnovesieSili {
     public static int theForce = 0;
 
-    public Force(){
+    public void Force() {
         this.theForce++;
     }
 
